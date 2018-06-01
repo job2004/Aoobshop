@@ -2,22 +2,22 @@
 <html lang="en">
 
 <head>
-  <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB"
     crossorigin="anonymous">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="shortcut icon" href="{{{ asset('images/icon.png') }}}">
   <title>Aoob Botique Shop</title>
 
 </head>
-
 <body>
-
-  <nav class="navbar navbar-expand-md navbar-dark bg-dark">
-    <!-- <a class="navbar-brand" href="#">Aoobshop</a> -->
-    <a class="navbar-brand" href="#">
-      <img src="/resources/assets/images/Apple-Logo-black.png" alt="Logo">
+<header id="header" class="full-header">
+  <div id="header-wrap">
+  <nav id="primary-menu" class="navbar navbar-expand-md navbar-light bg-light">
+    <a id="logo" class="navbar-brand" href="#">
+      <img class="logo_home" src="/images/logoaoob2.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
       aria-expanded="false" aria-label="Toggle navigation">
@@ -43,17 +43,31 @@
         <li class="nav-item">
           <a class="nav-link" href="#">Contact Us </a>
         </li>
-        <li>
-          <a href="#">
-            <i class="fa fa-facebook-square fa-2x"></i>
-          </a>
-        </li>
       </ul>
     </div>
   </nav>
-  <div class="container">
-    <p>The w3-container class is an important w3.CSS class.</p>
-  </div>
+</div>
+  </header>
+	<!-- <section>
+	
+		<article>
+			<header>
+				<h2>Article title</h2>
+				<p>Posted on <time datetime="2009-09-04T16:31:24+02:00">September 4th 2009</time> by <a href="#">Writer</a> - <a href="#comments">6 comments</a></p>
+			</header>
+			<p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+		</article>
+		
+	</section>
+
+	<aside>
+		<h2>About section</h2>
+		<p>Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+	</aside>
+
+	<footer>
+		<p>Copyright 2009 Your name</p>
+	</footer> -->
 
   <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"></script>
