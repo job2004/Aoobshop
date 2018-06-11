@@ -17,7 +17,7 @@
   <div id="header-wrap">
   <nav id="primary-menu" class="navbar navbar-expand-md navbar-light bg-light">
     <a id="logo" class="navbar-brand" href="#">
-      <img class="logo_home" src="/images/logoaoob2.png">
+      <img class="logo_home" src="/images/logoaoob3.png">
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault"
       aria-expanded="false" aria-label="Toggle navigation">
